@@ -26,7 +26,7 @@ public class DomainClassTests {
     @MockBean
     private UserRepository userRepository;
 
-    
+
     @Test
     public void testEqualityOfPaymentsUsingIDOnly() {
         Payment p1 = new Payment();
